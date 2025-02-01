@@ -1,0 +1,221 @@
+{
+    "data_points": [
+      // {
+      //   "Info": "DNS Analysis",
+      //   "Description": "Retrieve and analyze DNS records (A, AAAA, MX, NS, SOA, TXT, CNAME, PTR, SRV), including DNSSEC validation, reverse DNS lookup, PTR records, DNS over HTTPS support, DNS zone transfer vulnerability, and historical DNS records."
+      // },
+      // {
+      //   "Info": "WHOIS Information",
+      //   "Description": "Obtain domain registrar details, registration date, expiry date, registrant contact details, domain age, and historical ownership data."
+      // },
+      // {
+      //   "Info": "SSL/TLS Analysis",
+      //   "Description": "Fetch SSL/TLS certificate details, including validity dates, issuer, subject, SANs; analyze SSL/TLS configurations, supported protocols and versions, cipher suites, certificate chain, algorithm strength, revocation status; check for vulnerabilities, forward secrecy support, session resumption support, expiry monitoring, certificate pinning, and SSL Labs grade retrieval."
+      // },
+      // {
+      //   "Info": "IP Geolocation and Reputation",
+      //   "Description": "Determine the physical location (country, region, city), coordinates, ISP, and check IP reputation in spam and blacklist databases."
+      // },
+      // {
+      //   "Info": "Reverse IP Lookup and Shared Hosting Detection",
+      //   "Description": "Find other domains hosted on the same IP address, virtual hosts, and determine if the website is on shared hosting."
+      // },
+      // {
+      //   "Info": "Website Content Analysis",
+      //   "Description": "Extract HTML content, meta tags, internal and external links, scripts, resources; detect deprecated HTML tags, doctype declaration, content freshness, and use of client hints."
+      // },
+      // {
+      //   "Info": "HTTP Headers Analysis",
+      //   "Description": "Retrieve and analyze HTTP headers, including server type, content type, security headers (CSP, HSTS, X-Frame-Options, X-XSS-Protection, X-Content-Type-Options), cache control headers, cookies, referrer policy, header fingerprinting, detect HTTP methods allowed, HTTP authentication methods, and potential header injection points."
+      // },
+      // {
+      //   "Info": "Website Technologies and Frameworks Detection",
+      //   "Description": "Identify server-side technologies, CMS, e-commerce platforms, JavaScript frameworks, CSS libraries, backend programming language, language frameworks, application dependencies, third-party widgets, and code repositories linking."
+      // },
+      // {
+      //   "Info": "Site Traffic and SEO Analysis",
+      //   "Description": "Access site traffic data, analyze SEO practices (meta descriptions, keywords, header tags), Open Graph meta tags, microdata and schema.org usage, and perform link analysis."
+      // },
+    //   {
+    //     "Info": "Security Analysis",
+    //     "Description": "Conduct open ports scanning, vulnerability assessment, SSL/TLS configuration checks, subdomain enumeration, test for vulnerabilities (XSS, CSRF, SSRF, SQL injection, remote file inclusion), analyze session management, error handling mechanisms, password policies, security headers, and WAF detection."
+    //   },
+    //   {
+    //     "Info": "CDN and Hosting Provider",
+    //     "Description": "Determine the use of CDN services and details about the hosting provider, including CDN edge locations and third-party CDN resources."
+    //   },
+    //   {
+    //     "Info": "Social Media and Third-party Services",
+    //     "Description": "Extract links to social media profiles associated with the website, detect third-party tracking and analytics services, third-party login services, and third-party widgets."
+    //   },
+    //   {
+    //     "Info": "Search Engine Indexing and Robots.txt",
+    //     "Description": "Find the number of pages indexed, retrieve robots.txt and sitemap.xml, list disallowed entries, perform sitemap enumeration, and check for sitemap discrepancies."
+    //   },
+      // {
+      //   "Info": "Historical Data and Archive",
+      //   "Description": "Access archive snapshots (e.g., via Wayback Machine), historical DNS records, and domain history."
+      // },
+      // {
+      //   "Info": "Email and Authentication Records",
+      //   "Description": "Retrieve and analyze SPF, DKIM, and DMARC records, email server configurations, and check for email server vulnerabilities."
+      // },
+      // {
+      //   "Info": "Uptime and Performance Metrics",
+      //   "Description": "Check site uptime and availability, measure resource loading times, application performance metrics, load times for critical resources, response header timing analysis, and evaluate performance optimization techniques."
+      // },
+      // {
+      //   "Info": "Content and Language Analysis",
+      //   "Description": "Perform keyword extraction, sentiment analysis, language detection, internationalization support, language tags, and localization settings."
+      // },
+      // {
+      //   "Info": "Subdomain Enumeration",
+      //   "Description": "List subdomains associated with the domain, including subdomains discovered via certificate transparency logs."
+      // },
+      // {
+      //   "Info": "Email Addresses Extraction",
+      //   "Description": "Find email addresses present on the website."
+      // },
+      // {
+      //   "Info": "Cookies and Session Data Analysis",
+      //   "Description": "Retrieve and analyze cookies set by the website, session IDs, session management, entropy of session IDs, session fixation vulnerabilities, and client-side storage."
+      // },
+      // {
+      //   "Info": "Web Application Firewall (WAF) Detection",
+      //   "Description": "Detect WAF services protecting the site."
+      // },
+      // {
+      //   "Info": "API Endpoints and Documentation",
+      //   "Description": "Detect public APIs and endpoints exposed by the website, check for API documentation availability, test API rate limits."
+      // },
+      // {
+      //   "Info": "Accessibility and User Experience",
+      //   "Description": "Analyze website for accessibility features, mobile responsiveness, use of media queries, service worker usage, PWA features, and browser compatibility."
+      // },
+      // {
+      //   "Info": "Exif Data and Metadata in Media Files",
+      //   "Description": "Extract Exif metadata from images, metadata from documents (Word, Excel, PDFs), and perform reverse image search."
+      // },
+      // {
+      //   "Info": "CAPTCHA and Form Anti-Automation Techniques",
+      //   "Description": "Determine if the site uses CAPTCHA mechanisms, identify anti-automation techniques like hidden fields or time-based tokens."
+      // },
+      // {
+      //   "Info": "Load Balancing and Infrastructure Detection",
+      //   "Description": "Detect the presence of load balancers, map infrastructure components like firewalls and databases, and determine if the application is containerized or uses IaC tools."
+      // },
+      // {
+      //   "Info": "Backup and Old Files Detection",
+      //   "Description": "Find backup files or old versions of files that may be publicly accessible."
+      // },
+      // {
+      //   "Info": "Web Server Software Detection",
+      //   "Description": "Identify the web server software and its version."
+      // },
+      // {
+      //   "Info": "HTTP Version and Protocol Support",
+      //   "Description": "Determine the HTTP protocol versions supported by the server (e.g., HTTP/1.1, HTTP/2, HTTP/3), check for HTTP compression support, pipelining support, and HTTP methods allowed."
+      // },
+      {
+        "Info": "File Upload Functionality Testing",
+        "Description": "Identify and analyze file upload features for security testing."
+      },
+      {
+        "Info": "Banner Grabbing",
+        "Description": "Capture service banners for services running on open ports."
+      },
+      {
+        "Info": "Database Error Detection",
+        "Description": "Look for database error messages that could reveal database structure or vulnerabilities."
+      },
+      {
+        "Info": "Cookie Policy and GDPR Compliance",
+        "Description": "Determine if the site complies with GDPR regarding cookies and data privacy."
+      },
+      {
+        "Info": "Subresource Integrity (SRI) Usage",
+        "Description": "Check if the site uses SRI for external scripts to ensure integrity."
+      },
+      {
+        "Info": "Typosquatting Domains Detection",
+        "Description": "Identify domains that are typos or misspellings of the target domain, which might be used for phishing."
+      },
+      {
+        "Info": "Malware and Phishing Checks",
+        "Description": "Check if the domain is associated with malware or phishing activities."
+      },
+      {
+        "Info": "Infrastructure as Code (IaC) and Containerization Detection",
+        "Description": "Detect if the website uses IaC tools or is containerized using Docker or Kubernetes."
+      },
+      {
+        "Info": "Data Leakage Detection",
+        "Description": "Search for accidental data leaks like API keys or credentials in the code."
+      },
+      {
+        "Info": "Object Storage Misconfigurations",
+        "Description": "Detect misconfigured cloud storage buckets that may be publicly accessible."
+      },
+      {
+        "Info": "Cryptocurrency Mining Scripts Detection",
+        "Description": "Detect if the website runs cryptocurrency mining scripts in the browser."
+      },
+      {
+        "Info": "WebSockets and Real-time Communication",
+        "Description": "Identify if the website uses WebSockets or other real-time communication technologies."
+      },
+      {
+        "Info": "Input Validation Testing",
+        "Description": "Assess if the website uses client-side and server-side input validation."
+      },
+      {
+        "Info": "Redirection Methods Analysis",
+        "Description": "Determine if the site uses 301, 302, meta refresh, or JavaScript-based redirections, analyze redirection chains and canonical URLs."
+      },
+      {
+        "Info": "Asynchronous JavaScript and XML (AJAX) Usage",
+        "Description": "Detect the use of AJAX calls within the website."
+      },
+      {
+        "Info": "User Enumeration Testing",
+        "Description": "Attempt to enumerate user accounts through error messages or predictable URLs."
+      },
+      {
+        "Info": "SSL/TLS Forward Secrecy and Session Resumption",
+        "Description": "Check if the SSL/TLS configuration supports forward secrecy and session resumption mechanisms."
+      },
+      {
+        "Info": "WebAssembly and Advanced Web Technologies",
+        "Description": "Identify if the website uses WebAssembly modules or other advanced web technologies."
+      },
+      {
+        "Info": "Version Control Exposure",
+        "Description": "Check if version control directories like .git or .svn are exposed."
+      },
+      {
+        "Info": "Password Reset Functionality",
+        "Description": "Assess the security of the password reset process."
+      },
+      {
+        "Info": "Link Shorteners Usage",
+        "Description": "Detect the use of URL shorteners and expand them to original URLs."
+      },
+      {
+        "Info": "IP Address Range Enumeration",
+        "Description": "Enumerate all IP addresses associated with the domain."
+      },
+      {
+        "Info": "Video and Audio Content Analysis",
+        "Description": "Identify embedded video and audio content and their sources."
+      },
+      {
+        "Info": "DNS Zone Transfer Vulnerability Testing",
+        "Description": "Test if DNS servers allow zone transfers (AXFR)."
+      },
+      {
+        "Info": "Clickjacking Protection",
+        "Description": "Check for X-Frame-Options header to prevent clickjacking."
+      }
+    ]
+  }
+  

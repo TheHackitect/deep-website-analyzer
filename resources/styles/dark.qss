@@ -1,0 +1,24 @@
+/* resources/styles/dark.qss */
+QMainWindow {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color: #3c3f41;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+}
+
+QPushButton::checked {
+    background-color: #4caf50;
+}
+
+QLineEdit, QTableWidget, QTextEdit {
+    background-color: #3c3f41;
+    color: #ffffff;
+    border: 1px solid #555555;
+}
+
+/* Add more styles as needed */

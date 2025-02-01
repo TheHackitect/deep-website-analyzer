@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deep Website Analyzer - Detailed README</title>
+  <style>
+    /* Global styles and background gradient */
+    body {
+      background: linear-gradient(135deg, #fdfbfb, #ebedee);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+    nav {
+      background: #af4261;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #af4261;
+      padding-bottom: 5px;
+      color: #af4261;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow: auto;
+      font-size: 0.95em;
+    }
+    .image-preview {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .image-preview img {
+      max-width: 100%;
+      border: 5px solid #af4261;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .badge {
+      display: inline-block;
+      background: #4CAF50;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 5px;
+      font-weight: bold;
+    }
+    .social {
+      margin-top: 10px;
+    }
+    .social a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deep Website Analyzer</h1>
+    <p>Version: 1.0.0</p>
+    <div class="social">
+      <!-- Replace "yourusername" with your GitHub username -->
+      <a href="https://github.com/yourusername/deep-website-analyzer" target="_blank">
+        <img src="https://img.shields.io/github/stars/yourusername/deep-website-analyzer?style=social" alt="GitHub Stars">
+      </a>
+      <a href="https://github.com/yourusername/deep-website-analyzer" target="_blank">
+        <img src="https://img.shields.io/github/forks/yourusername/deep-website-analyzer?style=social" alt="GitHub Forks">
+      </a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#features">Features</a>
+    <a href="#installation">Installation</a>
+    <a href="#usage">Usage</a>
+    <a href="#project-structure">Project Structure</a>
+    <a href="#contributing">Contributing</a>
+    <a href="#license">License</a>
+  </nav>
+
+  <div class="container">
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>
+        <strong>Deep Website Analyzer</strong> is a powerful desktop application built with Python and PyQt6. It enables users to perform an in-depth analysis of websites by leveraging a modular plugin-based architecture. Whether you're checking accessibility, SEO, security, or performance, this tool provides a comprehensive solution for all your web analytics needs.
+      </p>
+      <div class="image-preview">
+        <!-- Replace the URL below with an actual preview image of your application -->
+        <img src="https://via.placeholder.com/800x400?text=Deep+Website+Analyzer+Preview" alt="Deep Website Analyzer Preview">
+      </div>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li><strong>Plugin-Based Architecture:</strong> Extend functionality easily by adding plugins to the <code>plugins/</code> folder.</li>
+        <li><strong>User-Friendly Interface:</strong> A visually appealing and intuitive GUI built with PyQt6 for effortless navigation.</li>
+        <li><strong>Real-Time Terminals:</strong> Dual terminal panels that display logs and analysis results in real-time with customizable typing effects.</li>
+        <li><strong>Session Caching:</strong> Automatically save analysis sessions to the <code>cache/</code> folder for later review.</li>
+        <li><strong>Data Export Options:</strong> Export results in JSON, HTML, or PDF formats with customizable themes and colors.</li>
+        <li><strong>Image Gallery:</strong> Detect, download, and preview images extracted from analysis results.</li>
+        <li><strong>Customization Options:</strong> Enable dark mode, adjust typing speeds, and configure API keys for various plugins.</li>
+      </ul>
+    </section>
+
+    <section id="installation">
+      <h2>Installation</h2>
+      <ol>
+        <li>
+          <strong>Clone the Repository:</strong>
+          <pre>git clone https://github.com/yourusername/deep-website-analyzer.git
+cd deep-website-analyzer</pre>
+        </li>
+        <li>
+          <strong>Create and Activate a Virtual Environment:</strong>
+          <pre>python -m venv venv
+# On Unix or macOS:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate</pre>
+        </li>
+        <li>
+          <strong>Install Dependencies:</strong>
+          <pre>pip install -r requirements.txt</pre>
+        </li>
+      </ol>
+    </section>
+
+    <section id="usage">
+      <h2>Usage</h2>
+      <p>
+        Launch the application by running the following command in your terminal:
+      </p>
+      <pre>python main.py</pre>
+      <p>
+        Once started, you can select tools, adjust settings, and run detailed analyses on your chosen URL, IP, or domain. The application displays real-time logs and results in two separate terminal panels for a seamless user experience.
+      </p>
+    </section>
+
+    <section id="project-structure">
+      <h2>Project Structure</h2>
+      <pre>
+├── app.log
+├── cache/
+├── logs/
+├── main.py
+├── plugins/
+│   ├── accessibility_user_experience.py
+│   ├── api_endpoints_documentation.py
+│   ├── backup_old_files_detection.py
+│   ├── banner_grabbing.py
+│   ├── base_plugin.py
+│   ├── captcha_form_anti_automation.py
+│   ├── cdn_hosting_provider.py
+│   ├── content_language_analysis.py
+│   ├── cookies_session_data_analysis.py
+│   ├── cookie_policy_gdpr_compliance.py
+│   ├── database_error_detection.py
+│   ├── dns_records.py
+│   ├── email_addresses_extraction.py
+│   ├── email_authentication_records.py
+│   ├── exif_metadata_extraction.py
+│   ├── file_upload_functionality_testing.py
+│   ├── historical_data_archive.py
+│   ├── http_headers.py
+│   ├── http_version_protocol_support.py
+│   ├── ip_geolocation.py
+│   ├── load_balancing_and_infrastructure_detection.py
+│   ├── reverse_ip_lookup.py
+│   ├── search_engine_indexing.py
+│   ├── security analysis.py
+│   ├── site_traffic_data.py
+│   ├── social_media_third_party.py
+│   ├── ssl_certificates.py
+│   ├── subdomain_enumaeration.py
+│   ├── uptime_performance_metrics.py
+│   ├── waf_detection.py
+│   ├── website_content_analysis.py
+│   ├── website_technologies.py
+│   └── web_server_software_detection.py
+├── requirements.txt
+├── resources/
+│   └── styles/
+│       ├── dark.qss
+│       └── light.qss
+├── test.html
+├── test.pdf
+├── tests/
+│   └── test_reverse_ip_lookup.py
+├── tools.json
+├── ui/
+│   ├── main_window.py
+│   └── terminals.py
+└── utils/
+    ├── json_utils.py
+    ├── logger.py
+    └── plugin_loader.py
+      </pre>
+    </section>
+
+    <section id="contributing">
+      <h2>Contributing</h2>
+      <p>
+        Contributions are highly appreciated! If you have suggestions, new plugin ideas, or bug fixes, please open an issue or submit a pull request on GitHub.
+      </p>
+      <p>
+        Kindly follow the project's style guidelines and include tests when applicable.
+      </p>
+    </section>
+
+    <section id="license">
+      <h2>License</h2>
+      <p>
+        This project is licensed under the MIT License. For more details, please see the LICENSE file or the text below:
+      </p>
+      <pre>
+MIT License
+
+Copyright (c) 2025 Thehackitect
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+[...]
+      </pre>
+    </section>
+  </div>
+
+  <footer>
+    <p class="badge">Deep Website Analyzer v1.0.0</p>
+    <p>Follow us on <a href="https://github.com/yourusername/deep-website-analyzer" target="_blank" style="color: #4CAF50;">GitHub</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* resources/styles/light.qss */
+QMainWindow {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+QPushButton {
+    background-color: #e0e0e0;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+}
+
+QPushButton::checked {
+    background-color: #4caf50;
+}
+
+QLineEdit, QTableWidget, QTextEdit {
+    background-color: #f5f5f5;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+/* Add more styles as needed */
